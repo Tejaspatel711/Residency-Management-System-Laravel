@@ -1,6 +1,14 @@
-<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #FF6263;">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="{{ asset('/css/nav.css') }}" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #ffa16b;">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">LoGo</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -13,7 +21,13 @@
             <a class="nav-link active" href="#">Link</a>
           </li>
         </ul>
+        <ul class="navbar-nav navbar-right">
+          <li><a href="register"><i class="fas fa-user-plus"></i> Register</a></li>
+          <li><a href="login"><i class="fas fa-user"></i> Login</a></li>
+        </ul>
         </form>
       </div>
     </div>
   </nav>
+</body>
+</html>

@@ -17,5 +17,7 @@ use App\Http\Controllers\HomeController;
 Route::get('/login', function () {
     return view('login');
 });
+Route::get("/register",[UserController::class,'register']);
 Route::post("/login",[UserController::class,'login']);
 Route::get("/",[HomeController::class,'index']);
+Route::post("/create",[UserController::class,'create'])->name('auth.create');

@@ -1,0 +1,21 @@
+ul li{
+    float: left;
+    padding:5px 10px;
+}
+li a{
+    display: block;
+    color:black;
+    padding:5px;
+    text-decoration:none;
+} 
+    
+ul li:hover{
+    background-color: rgb(253, 241, 192);
+    transform: scale(1.08);
+    transition-duration: 0.5s;
+}
+    
+li a:hover{
+    background-color: cornsilk;
+    color:black;
+}
